@@ -1,1 +1,967 @@
-ingenious
+<!DOCTYPE html>
+<!-- saved from url=(0043)http://localhost:7878/daily-report-001.html -->
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>全球创业复刻项目日报 · 第001期</title>
+<link href="./全球创业复刻项目日报 · 第001期_files/css2" rel="stylesheet">
+<style>
+:root{--bg:#0c0c0e;--bg2:#111114;--bg3:#1a1a1f;--gold:#c9a84c;--gold2:#e8c97a;--gold-dim:#7a6230;--red:#e05c5c;--green:#4caf8a;--blue:#5b9bd5;--purple:#9b7fd4;--orange:#d4845b;--teal:#5bbdbe;--text:#e8e3d8;--text2:#a09880;--text3:#5a5650;--border:#2a2820;--border2:#3d3820;}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{background:var(--bg);color:var(--text);font-family:'Noto Serif SC',serif;line-height:1.75;overflow-x:hidden;}
+a{color:var(--gold);text-decoration:none;}
+body::before{content:'';position:fixed;top:0;left:0;width:100%;height:100%;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");pointer-events:none;z-index:0;opacity:.3;}
+.masthead{border-bottom:1px solid var(--border2);position:relative;}
+.masthead-inner{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1fr auto;align-items:center;padding:28px 40px 24px;gap:20px;}
+.issue-badge{font-family:'Space Mono',monospace;font-size:11px;color:var(--gold);letter-spacing:.2em;text-transform:uppercase;border:1px solid var(--gold-dim);padding:4px 10px;border-radius:2px;display:inline-block;margin-bottom:10px;}
+.masthead h1{font-family:'Bebas Neue',sans-serif;font-size:clamp(28px,5vw,56px);letter-spacing:.04em;color:var(--text);line-height:1;}
+.masthead h1 span{color:var(--gold);}
+.masthead-meta{text-align:right;}
+.masthead-date{font-family:'Space Mono',monospace;font-size:12px;color:var(--text2);letter-spacing:.1em;}
+.masthead-tagline{font-size:13px;color:var(--text2);margin-top:6px;font-style:italic;}
+.masthead-bar{background:var(--bg3);border-bottom:2px solid var(--gold-dim);}
+.masthead-bar-inner{max-width:1200px;margin:0 auto;padding:0 40px;display:flex;align-items:center;overflow-x:auto;scrollbar-width:none;}
+.masthead-bar-inner::-webkit-scrollbar{display:none;}
+.nav-item{font-family:'Space Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--text2);padding:12px 18px;border-right:1px solid var(--border2);white-space:nowrap;cursor:pointer;transition:color .2s,background .2s;}
+.nav-item:hover,.nav-item.active{color:var(--gold);background:rgba(201,168,76,.06);}
+.nav-item:first-child{border-left:1px solid var(--border2);}
+.page-wrap{max-width:1200px;margin:0 auto;padding:40px 40px 80px;}
+.section-header{display:flex;align-items:center;gap:16px;margin:60px 0 28px;padding-bottom:14px;border-bottom:1px solid var(--border2);}
+.section-icon{font-size:22px;}
+.section-title{font-family:'Bebas Neue',sans-serif;font-size:32px;letter-spacing:.06em;color:var(--text);}
+.section-sub{font-family:'Space Mono',monospace;font-size:10px;color:var(--text3);letter-spacing:.15em;text-transform:uppercase;margin-left:auto;}
+.overview-table-wrap{overflow-x:auto;margin-bottom:40px;}
+.overview-table{width:100%;border-collapse:collapse;font-size:13.5px;}
+.overview-table thead tr{background:var(--bg3);border-bottom:2px solid var(--gold-dim);}
+.overview-table th{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--gold);padding:12px 16px;text-align:left;font-weight:400;white-space:nowrap;}
+.overview-table td{padding:10px 16px;border-bottom:1px solid var(--border);vertical-align:middle;}
+.overview-table tbody tr:hover{background:rgba(201,168,76,.04);}
+.track-tag{display:inline-flex;align-items:center;gap:4px;font-size:11px;padding:2px 8px;border-radius:20px;font-family:'Space Mono',monospace;white-space:nowrap;}
+.tag-ai{background:rgba(91,157,213,.15);color:#5b9bd5;border:1px solid rgba(91,157,213,.3);}
+.tag-consumer{background:rgba(76,175,138,.15);color:#4caf8a;border:1px solid rgba(76,175,138,.3);}
+.tag-franchise{background:rgba(155,127,212,.15);color:#9b7fd4;border:1px solid rgba(155,127,212,.3);}
+.tag-martech{background:rgba(212,132,91,.15);color:#d4845b;border:1px solid rgba(212,132,91,.3);}
+.tag-saas{background:rgba(91,189,190,.15);color:#5bbdbe;border:1px solid rgba(91,189,190,.3);}
+.tag-know{background:rgba(224,92,92,.15);color:#e05c5c;border:1px solid rgba(224,92,92,.3);}
+.tag-cross{background:rgba(201,168,76,.15);color:#c9a84c;border:1px solid rgba(201,168,76,.3);}
+.tag-health{background:rgba(168,196,90,.15);color:#a8c45a;border:1px solid rgba(168,196,90,.3);}
+.project-name{font-weight:600;color:var(--text);}
+.project-origin{font-family:'Space Mono',monospace;font-size:10px;color:var(--text3);margin-left:4px;}
+.difficulty-stars{color:var(--gold);}
+.difficulty-empty{color:var(--text3);}
+.fund-badge{font-family:'Space Mono',monospace;font-size:11px;color:var(--green);}
+.hot-signal{background:linear-gradient(135deg,rgba(201,168,76,.08) 0%,rgba(201,168,76,.03) 100%);border:1px solid var(--gold-dim);border-left:4px solid var(--gold);border-radius:4px;padding:28px 32px;margin:0 0 50px;position:relative;overflow:hidden;}
+.hot-signal::before{content:'HOT';position:absolute;top:10px;right:20px;font-family:'Bebas Neue',sans-serif;font-size:80px;color:var(--gold);opacity:.05;letter-spacing:.1em;}
+.hot-signal-label{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:10px;display:flex;align-items:center;gap:8px;}
+.hot-signal-label::before{content:'●';animation:pulse 1.5s infinite;}
+@keyframes pulse{0%,100%{opacity:1;}50%{opacity:.3;}}
+.hot-signal-text{font-size:15px;line-height:1.85;color:var(--text);}
+.hot-signal-text strong{color:var(--gold2);}
+.project-card{background:var(--bg2);border:1px solid var(--border);border-radius:6px;margin-bottom:32px;overflow:hidden;}
+.project-card:hover{border-color:var(--border2);}
+.card-header{padding:22px 28px 18px;border-bottom:1px solid var(--border);background:var(--bg3);display:flex;align-items:flex-start;gap:16px;}
+.card-number{font-family:'Bebas Neue',sans-serif;font-size:44px;color:var(--text3);line-height:1;flex-shrink:0;}
+.card-header-info{flex:1;}
+.card-title{font-family:'Bebas Neue',sans-serif;font-size:26px;letter-spacing:.04em;color:var(--text);line-height:1.1;}
+.card-subtitle{font-size:13px;color:var(--text2);margin-top:6px;line-height:1.65;}
+.card-meta{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;}
+.meta-chip{font-family:'Space Mono',monospace;font-size:10px;padding:3px 9px;border-radius:2px;letter-spacing:.06em;}
+.chip-diff{background:rgba(201,168,76,.12);color:var(--gold);border:1px solid rgba(201,168,76,.2);}
+.chip-fund{background:rgba(76,175,138,.1);color:var(--green);border:1px solid rgba(76,175,138,.2);}
+.card-body{padding:22px 28px;}
+.subsection{margin-bottom:22px;}
+.subsection-title{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:12px;display:flex;align-items:center;gap:8px;}
+.subsection-title::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,var(--border2),transparent);}
+.subsection-content{font-size:14px;color:var(--text2);line-height:1.85;}
+.subsection-content strong{color:var(--text);}
+.info-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin:14px 0;}
+.info-item{background:var(--bg3);border:1px solid var(--border);border-radius:4px;padding:12px 14px;}
+.info-item-label{font-family:'Space Mono',monospace;font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--text3);margin-bottom:5px;}
+.info-item-value{font-size:13.5px;color:var(--text);line-height:1.6;}
+.mvp-steps{display:grid;gap:8px;margin:12px 0;}
+.mvp-step{display:flex;gap:12px;align-items:flex-start;background:var(--bg3);border:1px solid var(--border);border-radius:4px;padding:11px 13px;}
+.mvp-num{font-family:'Bebas Neue',sans-serif;font-size:20px;color:var(--gold-dim);flex-shrink:0;line-height:1.2;min-width:22px;}
+.mvp-text{font-size:13.5px;color:var(--text2);line-height:1.7;}
+.mvp-text strong{color:var(--text);}
+.action-list{list-style:none;counter-reset:steps;}
+.action-list li{counter-increment:steps;display:flex;gap:12px;align-items:flex-start;padding:10px 12px;border-bottom:1px solid var(--border);font-size:13.5px;color:var(--text2);}
+.action-list li:hover{background:rgba(201,168,76,.03);}
+.action-list li:last-child{border-bottom:none;}
+.action-list li::before{content:counter(steps);font-family:'Bebas Neue',sans-serif;font-size:18px;color:var(--gold);min-width:20px;line-height:1.4;flex-shrink:0;}
+.action-list li strong{color:var(--text);}
+.stats-row{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:14px 0;}
+.stat-box{background:var(--bg3);border:1px solid var(--border);border-radius:4px;padding:14px;text-align:center;}
+.stat-value{font-family:'Bebas Neue',sans-serif;font-size:20px;color:var(--gold2);line-height:1.2;}
+.stat-label{font-family:'Space Mono',monospace;font-size:9px;color:var(--text3);letter-spacing:.15em;text-transform:uppercase;margin-top:3px;}
+.stat-note{font-size:11px;color:var(--text3);margin-top:3px;}
+.window-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(91,189,190,.1);border:1px solid rgba(91,189,190,.25);border-radius:3px;padding:5px 12px;font-family:'Space Mono',monospace;font-size:11px;color:var(--teal);margin:8px 0;}
+.window-badge::before{content:'◷';font-size:13px;}
+.discussion-box{background:var(--bg3);border:1px solid var(--border2);border-radius:6px;padding:22px 26px;margin:32px 0 0;}
+.discussion-label{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.2em;color:var(--teal);margin-bottom:8px;text-transform:uppercase;}
+.discussion-q{font-size:15px;color:var(--text);line-height:1.75;}
+.track-divider{height:1px;background:linear-gradient(90deg,var(--border2) 0%,transparent 100%);margin:50px 0 0;}
+footer{border-top:1px solid var(--border2);padding:28px 40px;max-width:1200px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;}
+.footer-brand{font-family:'Bebas Neue',sans-serif;font-size:20px;letter-spacing:.08em;color:var(--text3);}
+.footer-brand span{color:var(--gold-dim);}
+.footer-copy{font-family:'Space Mono',monospace;font-size:10px;color:var(--text3);letter-spacing:.1em;}
+@media(max-width:768px){
+  .masthead-inner,.page-wrap,footer{padding-left:18px;padding-right:18px;}
+  .masthead-inner{grid-template-columns:1fr;}
+  .masthead-meta{text-align:left;}
+  .stats-row{grid-template-columns:1fr;}
+  .section-sub{display:none;}
+  .card-number{font-size:32px;}
+}
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <div>
+      <div class="issue-badge">Issue #001 · 2026.03.26</div>
+      <h1>全球创业<span>复刻</span>项目日报</h1>
+    </div>
+    <div class="masthead-meta">
+      <div class="masthead-date">THURSDAY · MARCH 26 · 2026</div>
+      <div class="masthead-tagline">拆解全球爆款，复刻到中国市场</div>
+    </div>
+  </div>
+  <nav class="masthead-bar">
+    <div class="masthead-bar-inner">
+      <div class="nav-item active">速览</div>
+      <div class="nav-item">🤖 AI工具</div>
+      <div class="nav-item">🛍️ 新消费</div>
+      <div class="nav-item">🔗 连锁加盟</div>
+      <div class="nav-item">📣 营销科技</div>
+      <div class="nav-item">🏢 企业服务</div>
+      <div class="nav-item">🎓 知识付费</div>
+      <div class="nav-item">🌐 跨境电商</div>
+      <div class="nav-item">🏥 健康宠物</div>
+    </div>
+  </nav>
+</header>
+
+<main class="page-wrap">
+
+<!-- =========== PART 1: OVERVIEW =========== -->
+<div class="section-header">
+  <span class="section-icon">📊</span>
+  <span class="section-title">今日项目速览</span>
+  <span class="section-sub">39 Projects · 8 Tracks</span>
+</div>
+<div class="overview-table-wrap">
+<table class="overview-table">
+<thead><tr><th>赛道</th><th>项目名</th><th>一句话描述</th><th>复制难度</th><th>启动资金</th></tr></thead>
+<tbody>
+<tr style="transition: background 0.15s;"><td><span class="track-tag tag-ai">🤖 AI工具</span></td><td><span class="project-name">Cursor</span><span class="project-origin">美国</span></td><td>给程序员用的AI代码编辑器，订阅制</td><td><span class="difficulty-stars">★★★</span><span class="difficulty-empty">★★</span></td><td><span class="fund-badge">¥50万+</span></td></tr>
+<tr style="transition: background 0.15s;"><td><span class="track-tag tag-ai">🤖 AI工具</span></td><td><span class="project-name">Perplexity</span><span class="project-origin">美国</span></td><td>AI搜索引擎，让用户直接得到答案而非链接</td><td><span class="difficulty-stars">★★★★</span><span class="difficulty-empty">★</span></td><td><span class="fund-badge">¥100万+</span></td></tr>
+<tr style="transition: background 0.15s;"><td><span class="track-tag tag-ai">🤖 AI工具</span></td><td><span class="project-name">Wispr Flow</span><span class="project-origin">美国</span></td><td>AI语音输入工具，说话代替打字</td><td><span class="difficulty-stars">★★</span><span class="difficulty-empty">★★★</span></td><td><span class="fund-badge">¥10万+</span></td></tr>
+<tr style="transition: background 0.15s;"><td><span class="track-tag tag-ai">🤖 AI工具</span></td><td><span class="project-name">Durable</span><span class="project-origin">加拿大</span></td><td>30秒AI建网站，针对个体商户</td><td><span class="difficulty-stars">★★★</span><span class="difficulty-empty">★★</span></td><td><span class="fund-badge">¥30万+</span></td></tr>
+<tr style="transition: background 0.15s;"><td><span class="track-tag tag-ai">🤖 AI工具</span></td><td><span class="project-name">Granola</span><span class="project-origin">英国</span></td><td>AI会议记录工具，自动整理会议纪要</td><td><span class="difficulty-stars">★★</span><span class="difficulty-empty">★★★</span></td><td><span class="fund-badge">¥15万+</span></td></tr>
+<tr style="transition: background 0.15s;"><td><span class="track-tag tag-consumer">🛍️ 新消费</span></td><td><span class="project-name">Graza</span><span class="project-origin">美国</span></td><td>挤压瓶装高端橄榄油，让厨房操作更爽</td><td><span class="difficulty-stars">★★</span><span class="difficulty-empty">★★★</span></td><td><span class="fund-badge">¥20万+</span></td></tr>
+<tr style="transition: background 0.15s;"><td><span class="track-tag tag-consumer">🛍️ 新消费</span></td><td><span class="project-name">Fly by Jing</span><span class="project-origin">美国</span></td><td>川味酱料出海，华裔创始人做的中国味道</td><td><span class="difficulty-stars">★★</span><span class="difficulty-empty">★★★</span></td><td><span class="fund-badge">¥15万+</span></td></tr>
+<tr style="transition: background 0.15s;"><td><span class="track-tag tag-consumer">🛍️ 新消费</span></td><td><span class="project-name">Brightland</span><span class="project-origin">美国</span></td><td>高颜值橄榄油+醋，靠内容卖溢价</td><td><span class="difficulty-stars">★★</span><span class="difficulty-empty">★★★</span></td><td><span class="fund-badge">¥20万+</span></td></tr>
+<tr style="transition: background 0.15s;"><td><span class="track-tag tag-consumer">🛍️ 新消费</span></td><td><span class="project-name">Magic Spoon</span><span class="project-origin">美国</span></td><td>高蛋白低糖麦片，用营养标签做卖点</td><td><span class="difficulty-stars">★★</span><span class="difficulty-empty">★★★</span></td><td><span class="fund-badge">¥25万+</span></td></tr>
+<tr style="transition: background 0.15s;"><td><span class="track-tag tag-consumer">🛍️ 新消费</span></td><td><span class="project-name">Supergut</span><span class="project-origin">美国</span></td><td>益生元代餐奶昔，打肠道健康牌</td><td><span class="difficulty-stars">★★★</span><span class="difficulty-empty">★★</span></td><td><span class="fund-badge">¥30万+</span></td></tr>
+<tr style="transition: background 0.15s;"><td><span class="track-tag tag-franchise">🔗 连锁加盟</span></td><td><span class="project-name">Scenthound</span><span class="project-origin">美国</span></td><td>宠物SPA会员店，不做美容只做清洁</td><td><span class="difficulty-stars">★★★</span><span class="difficulty-empty">★★</span></td><td><span class="fund-badge">¥80万+</span></td></tr>
+<tr style="transition: background 0.15s;"><td><span class="track-tag tag-franchise">🔗 连锁加盟</span></td><td><span class="project-name">Stretch Zone</span><span class="project-origin">美国</span></td><td>专业拉伸门店，一对一辅助拉伸</td><td><span class="difficulty-stars">★★</span><span class="difficulty-empty">★★★</span></td><td><span class="fund-badge">¥40万+</span></td></tr>
+<tr style="transition: background 0.15s;"><td><span class="track-tag tag-franchise">🔗 连锁加盟</span></td><td><span class="project-name">Restore Hyper Wellness</span><span class="project-origin">美国</span></td><td>冷冻舱+红光疗愈连锁，卖会员包月</td><td><span class="difficulty-stars">★★★</span><span class="difficulty-empty">★★</span></td><td><span class="fund-badge">¥150万+</span></td></tr>
+<tr style="transition: background 0.15s;"><td><span class="track-tag tag-franchise">🔗 连锁加盟</span></td><td><span class="project-name">Blo Blow Dry Bar</span><span class="project-origin">加拿大</span></td><td>只做吹发不做其他的专项美发店</td><td><span class="difficulty-stars">★★</span><span class="difficulty-empty">★★★</span></td><td><span class="fund-badge">¥50万+</span></td></tr>
+<tr style="transition: background 0.15s;"><td><span class="track-tag tag-franchise">🔗 连锁加盟</span></td><td><span class="project-name">Sola Salon Studios</span><span class="project-origin">美国</span></td><td>把大沙龙切割成小间租给独立美发师</td><td><span class="difficulty-stars">★★★</span><span class="difficulty-empty">★★</span></td><td><span class="fund-badge">¥200万+</span></td></tr>
+<tr style="transition: background 0.15s;"><td><span class="track-tag tag-martech">📣 营销科技</span></td><td><span class="project-name">Beehiiv</span><span class="project-origin">美国</span></td><td>给Newsletter创作者用的发行+变现平台</td><td><span class="difficulty-stars">★★★</span><span class="difficulty-empty">★★</span></td><td><span class="fund-badge">¥30万+</span></td></tr>
+<tr style="transition: background 0.15s;"><td><span class="track-tag tag-martech">📣 营销科技</span></td><td><span class="project-name">Cohley</span><span class="project-origin">美国</span></td><td>品牌找UGC素材的撮合平台</td><td><span class="difficulty-stars">★★★</span><span class="difficulty-empty">★★</span></td><td><span class="fund-badge">¥40万+</span></td></tr>
+<tr style="transition: background 0.15s;"><td><span class="track-tag tag-martech">📣 营销科技</span></td><td><span class="project-name">Foreplay</span><span class="project-origin">美国</span></td><td>广告创意素材收集+团队协作工具</td><td><span class="difficulty-stars">★★</span><span class="difficulty-empty">★★★</span></td><td><span class="fund-badge">¥20万+</span></td></tr>
+<tr style="transition: background 0.15s;"><td><span class="track-tag tag-martech">📣 营销科技</span></td><td><span class="project-name">AdCreative.ai</span><span class="project-origin">法国</span></td><td>AI批量生成广告图，接API卖给代理商</td><td><span class="difficulty-stars">★★★</span><span class="difficulty-empty">★★</span></td><td><span class="fund-badge">¥40万+</span></td></tr>
+<tr style="transition: background 0.15s;"><td><span class="track-tag tag-martech">📣 营销科技</span></td><td><span class="project-name">Minisocial</span><span class="project-origin">美国</span></td><td>小红书式内容+品牌合作撮合，服务美国品牌</td><td><span class="difficulty-stars">★★★</span><span class="difficulty-empty">★★</span></td><td><span class="fund-badge">¥30万+</span></td></tr>
+<tr style="transition: background 0.15s;"><td><span class="track-tag tag-saas">🏢 企业服务</span></td><td><span class="project-name">Rippling</span><span class="project-origin">美国</span></td><td>HR+IT合一的员工管理平台</td><td><span class="difficulty-stars">★★★★★</span></td><td><span class="fund-badge">¥500万+</span></td></tr>
+<tr style="transition: background 0.15s;"><td><span class="track-tag tag-saas">🏢 企业服务</span></td><td><span class="project-name">Deel</span><span class="project-origin">美国</span></td><td>全球雇用合规工具，帮公司雇外国员工</td><td><span class="difficulty-stars">★★★★</span><span class="difficulty-empty">★</span></td><td><span class="fund-badge">¥200万+</span></td></tr>
+<tr style="transition: background 0.15s;"><td><span class="track-tag tag-saas">🏢 企业服务</span></td><td><span class="project-name">Ramp</span><span class="project-origin">美国</span></td><td>企业支出管理+智能报销卡</td><td><span class="difficulty-stars">★★★★</span><span class="difficulty-empty">★</span></td><td><span class="fund-badge">¥300万+</span></td></tr>
+<tr style="transition: background 0.15s;"><td><span class="track-tag tag-saas">🏢 企业服务</span></td><td><span class="project-name">Lemon.io</span><span class="project-origin">爱沙尼亚</span></td><td>远程开发者撮合平台，48小时匹配</td><td><span class="difficulty-stars">★★★</span><span class="difficulty-empty">★★</span></td><td><span class="fund-badge">¥20万+</span></td></tr>
+<tr style="transition: background 0.15s;"><td><span class="track-tag tag-saas">🏢 企业服务</span></td><td><span class="project-name">Tidio</span><span class="project-origin">波兰</span></td><td>中小电商用的AI客服+实时聊天工具</td><td><span class="difficulty-stars">★★★</span><span class="difficulty-empty">★★</span></td><td><span class="fund-badge">¥40万+</span></td></tr>
+<tr style="transition: background 0.15s;"><td><span class="track-tag tag-know">🎓 知识付费</span></td><td><span class="project-name">Maven</span><span class="project-origin">美国</span></td><td>专家开直播课的平台，课程结束即关闭</td><td><span class="difficulty-stars">★★★</span><span class="difficulty-empty">★★</span></td><td><span class="fund-badge">¥20万+</span></td></tr>
+<tr style="transition: background 0.15s;"><td><span class="track-tag tag-know">🎓 知识付费</span></td><td><span class="project-name">Lemon8</span><span class="project-origin">字节/全球</span></td><td>图文种草+创作者变现，东南亚爆发中</td><td><span class="difficulty-stars">★★★</span><span class="difficulty-empty">★★</span></td><td><span class="fund-badge">¥50万+</span></td></tr>
+<tr style="transition: background 0.15s;"><td><span class="track-tag tag-know">🎓 知识付费</span></td><td><span class="project-name">Kajabi</span><span class="project-origin">美国</span></td><td>知识创业者的一站式工具，建站+卖课+邮件</td><td><span class="difficulty-stars">★★★</span><span class="difficulty-empty">★★</span></td><td><span class="fund-badge">¥30万+</span></td></tr>
+<tr style="transition: background 0.15s;"><td><span class="track-tag tag-know">🎓 知识付费</span></td><td><span class="project-name">Whop</span><span class="project-origin">美国</span></td><td>卖任何数字产品的轻量市集，佣金3%</td><td><span class="difficulty-stars">★★</span><span class="difficulty-empty">★★★</span></td><td><span class="fund-badge">¥5万+</span></td></tr>
+<tr style="transition: background 0.15s;"><td><span class="track-tag tag-know">🎓 知识付费</span></td><td><span class="project-name">Teachable</span><span class="project-origin">美国</span></td><td>个人卖课平台，拿走交易额5-10%</td><td><span class="difficulty-stars">★★★</span><span class="difficulty-empty">★★</span></td><td><span class="fund-badge">¥20万+</span></td></tr>
+<tr style="transition: background 0.15s;"><td><span class="track-tag tag-cross">🌐 跨境电商</span></td><td><span class="project-name">Cider</span><span class="project-origin">中国/美国</span></td><td>快时尚独立站，Z世代定价+TikTok流量</td><td><span class="difficulty-stars">★★★★</span><span class="difficulty-empty">★</span></td><td><span class="fund-badge">¥100万+</span></td></tr>
+<tr style="transition: background 0.15s;"><td><span class="track-tag tag-cross">🌐 跨境电商</span></td><td><span class="project-name">Glotrition</span><span class="project-origin">美国</span></td><td>胶原蛋白粉独立站，抗衰+美容定位</td><td><span class="difficulty-stars">★★</span><span class="difficulty-empty">★★★</span></td><td><span class="fund-badge">¥20万+</span></td></tr>
+<tr style="transition: background 0.15s;"><td><span class="track-tag tag-cross">🌐 跨境电商</span></td><td><span class="project-name">Printify</span><span class="project-origin">拉脱维亚</span></td><td>按需印刷白标产品，0库存开店</td><td><span class="difficulty-stars">★★</span><span class="difficulty-empty">★★★</span></td><td><span class="fund-badge">¥5万+</span></td></tr>
+<tr style="transition: background 0.15s;"><td><span class="track-tag tag-cross">🌐 跨境电商</span></td><td><span class="project-name">Spocket</span><span class="project-origin">加拿大</span></td><td>北美+欧洲本地供货的dropshipping平台</td><td><span class="difficulty-stars">★★★</span><span class="difficulty-empty">★★</span></td><td><span class="fund-badge">¥10万+</span></td></tr>
+<tr style="transition: background 0.15s;"><td><span class="track-tag tag-cross">🌐 跨境电商</span></td><td><span class="project-name">YourSuper</span><span class="project-origin">德国</span></td><td>超级食物粉末订阅，环保包装+高客单</td><td><span class="difficulty-stars">★★</span><span class="difficulty-empty">★★★</span></td><td><span class="fund-badge">¥25万+</span></td></tr>
+<tr style="transition: background 0.15s;"><td><span class="track-tag tag-health">🏥 健康宠物</span></td><td><span class="project-name">Talkspace</span><span class="project-origin">美国</span></td><td>在线心理咨询，按月订阅配对咨询师</td><td><span class="difficulty-stars">★★★★</span><span class="difficulty-empty">★</span></td><td><span class="fund-badge">¥100万+</span></td></tr>
+<tr style="transition: background 0.15s;"><td><span class="track-tag tag-health">🏥 健康宠物</span></td><td><span class="project-name">Hims &amp; Hers</span><span class="project-origin">美国</span></td><td>男性健康订阅品牌，脱发/ED在线开药</td><td><span class="difficulty-stars">★★★★</span><span class="difficulty-empty">★</span></td><td><span class="fund-badge">¥200万+</span></td></tr>
+<tr style="transition: background 0.15s;"><td><span class="track-tag tag-health">🏥 健康宠物</span></td><td><span class="project-name">Fuzzy</span><span class="project-origin">美国</span></td><td>宠物在线问诊+会员制，月费制</td><td><span class="difficulty-stars">★★★</span><span class="difficulty-empty">★★</span></td><td><span class="fund-badge">¥60万+</span></td></tr>
+<tr style="transition: background 0.15s;"><td><span class="track-tag tag-health">🏥 健康宠物</span></td><td><span class="project-name">AG1</span><span class="project-origin">新西兰/美国</span></td><td>全营养绿色粉末，订阅制，KOL带货</td><td><span class="difficulty-stars">★★★</span><span class="difficulty-empty">★★</span></td><td><span class="fund-badge">¥50万+</span></td></tr>
+<tr style="transition: background 0.15s;"><td><span class="track-tag tag-health">🏥 健康宠物</span></td><td><span class="project-name">Wondercise</span><span class="project-origin">台湾</span></td><td>跟练健身APP，镜像动作实时评分</td><td><span class="difficulty-stars">★★★</span><span class="difficulty-empty">★★</span></td><td><span class="fund-badge">¥80万+</span></td></tr>
+</tbody></table>
+</div>
+
+<!-- HOT SIGNAL -->
+<div class="section-header">
+  <span class="section-icon">🔥</span>
+  <span class="section-title">今日最热信号</span>
+  <span class="section-sub">Editor's Pick</span>
+</div>
+<div class="hot-signal">
+  <div class="hot-signal-label">今日信号</div>
+  <div class="hot-signal-text">
+    <strong>AI语音输入正在替代打字</strong>——Wispr Flow月活突破50万（来源：ProductHunt 2024Q4数据），用户反馈「用了就回不去键盘」。这不是噱头，是人机交互的下一个入口。国内手机厂商还在卷屏幕，没人认真做这个，<strong>窗口开着。</strong>
+  </div>
+</div>
+
+<!-- =========== PART 3: TRACK 1 — AI TOOLS =========== -->
+<div class="section-header">
+  <span class="section-icon">🤖</span>
+  <span class="section-title">赛道一：AI工具 &amp; 效率应用</span>
+  <span class="section-sub">5 Projects</span>
+</div>
+
+<!-- PROJECT 1: CURSOR -->
+<div class="project-card">
+  <div class="card-header">
+    <div class="card-number">01</div>
+    <div class="card-header-info">
+      <div class="card-title">Cursor · 美国</div>
+      <div class="card-subtitle">给程序员装了一个会写代码的副驾，订阅制，月费20美元</div>
+      <div class="card-meta">
+        <span class="meta-chip chip-diff">复制难度 ★★★</span>
+        <span class="meta-chip chip-fund">启动 ¥50万+</span>
+      </div>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="subsection">
+      <div class="subsection-title">商业模式拆解</div>
+      <div class="info-grid">
+        <div class="info-item"><div class="info-item-label">如何赚钱</div><div class="info-item-value">个人版 $20/月，团队版 $40/人/月。免费版有额度限制，用完自然升级。</div></div>
+        <div class="info-item"><div class="info-item-label">目标用户</div><div class="info-item-value">日常写代码的程序员，不是AI研究员，就是每天对着IDE的普通开发者。</div></div>
+        <div class="info-item"><div class="info-item-label">获客方式</div><div class="info-item-value">GitHub口碑传播 + 程序员社区自发安利，几乎没花钱买广告。</div></div>
+        <div class="info-item"><div class="info-item-label">持续付费理由</div><div class="info-item-value">用了Cursor写代码速度快30-50%（用户自述），停掉就像断网，回不去了。</div></div>
+      </div>
+    </div>
+    <div class="subsection">
+      <div class="subsection-title">趋势判断</div>
+      <div class="subsection-content">
+        <strong>大趋势：</strong>AI把程序员生产力提升2-5倍，工具本身成为必需品。<br>
+        <strong>现在阶段：</strong>爆发期中段。2024年ARR突破1亿美元，用了不到2年。<br>
+        <strong>未来12个月：</strong>微软Copilot、JetBrains都在追，但先发用户黏性强，护住存量问题不大。
+      </div>
+    </div>
+    <div class="subsection">
+      <div class="subsection-title">可复制性评估</div>
+      <div class="window-badge">先发窗口：国内12-18个月</div>
+      <div class="subsection-content" style="margin-top:10px">
+        <strong>中国市场适配度：</strong>能干。需解决两个问题：① 接国内大模型（DeepSeek/通义）降低成本；② 数据不出境（很多企业的硬需求）。
+      </div>
+      <div class="mvp-steps" style="margin-top:12px">
+        <div class="mvp-step"><div class="mvp-num">1</div><div class="mvp-text"><strong>选语言方向</strong>，别做通用编辑器，专门服务Python数据分析师</div></div>
+        <div class="mvp-step"><div class="mvp-num">2</div><div class="mvp-text"><strong>做VSCode插件形式</strong>，不用重建编辑器，大幅降低门槛</div></div>
+        <div class="mvp-step"><div class="mvp-num">3</div><div class="mvp-text"><strong>在掘金/SegmentFault发教程引流</strong>，跑通免费→付费转化路径</div></div>
+      </div>
+    </div>
+    <div class="subsection">
+      <div class="subsection-title">第一周行动清单</div>
+      <ul class="action-list">
+        <li><strong>下载Cursor用一周</strong>，把每个功能摸透，找到用户抱怨最多的3个痛点</li>
+        <li><strong>读GitHub Issues和Reddit r/cursor</strong>，找「国内用户特有的不满」</li>
+        <li><strong>联系5个国内中型软件公司IT负责人</strong>，问「现在用什么AI编程工具，卡在哪」</li>
+        <li><strong>做一个VSCode插件demo</strong>，接DeepSeek API，给10个程序员朋友免费用</li>
+        <li><strong>根据反馈决定</strong>：做通用工具还是专攻某类语言/框架</li>
+      </ul>
+    </div>
+    <div class="subsection">
+      <div class="subsection-title">关键数据</div>
+      <div class="stats-row">
+        <div class="stat-box"><div class="stat-value">$6000万</div><div class="stat-label">A轮融资</div><div class="stat-note">a16z领投 · 2024.1</div></div>
+        <div class="stat-box"><div class="stat-value">$1亿</div><div class="stat-label">ARR</div><div class="stat-note">2024年突破 · &lt;2年</div></div>
+        <div class="stat-box"><div class="stat-value">通义灵码</div><div class="stat-label">国内对标</div><div class="stat-note">大厂做，细分仍有空间</div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PROJECT 2: PERPLEXITY -->
+<div class="project-card">
+  <div class="card-header">
+    <div class="card-number">02</div>
+    <div class="card-header-info">
+      <div class="card-title">Perplexity · 美国</div>
+      <div class="card-subtitle">AI搜索引擎，你问问题它直接给答案，不是给你10个链接让你自己翻</div>
+      <div class="card-meta">
+        <span class="meta-chip chip-diff">复制难度 ★★★★</span>
+        <span class="meta-chip chip-fund">启动 ¥100万+</span>
+      </div>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="subsection">
+      <div class="subsection-title">商业模式拆解</div>
+      <div class="info-grid">
+        <div class="info-item"><div class="info-item-label">如何赚钱</div><div class="info-item-value">免费版有次数限制，Pro版 $20/月无限用+更强模型。另有API付费接入。</div></div>
+        <div class="info-item"><div class="info-item-label">目标用户</div><div class="info-item-value">研究员、记者、投资人、学生——需要快速查资料的知识工作者。</div></div>
+        <div class="info-item"><div class="info-item-label">获客方式</div><div class="info-item-value">产品本身就是传播物。用过一次，告诉5个同事，自然裂变。</div></div>
+        <div class="info-item"><div class="info-item-label">持续付费理由</div><div class="info-item-value">免费版有每日查询次数上限，重度用户一天就用完，要继续用就得付。</div></div>
+      </div>
+    </div>
+    <div class="subsection">
+      <div class="subsection-title">趋势判断</div>
+      <div class="subsection-content">
+        <strong>大趋势：</strong>Google的搜索广告模式正在被「直接给答案」替代，这是几十年一遇的范式迁移。<br>
+        <strong>现在阶段：</strong>爆发期早段。月活5000万（CEO公开推文 2024.11），但距离挑战Google还早。<br>
+        <strong>未来12个月：</strong>会有更多资金涌入，竞品增加，但用户使用习惯正在形成。
+      </div>
+    </div>
+    <div class="subsection">
+      <div class="subsection-title">可复制性评估</div>
+      <div class="window-badge">垂直AI搜索窗口：12个月</div>
+      <div class="subsection-content" style="margin-top:10px">
+        <strong>中国适配度：</strong>垂直方向能干。做通用搜索会碰百度/360/夸克，建议绕开。专攻某个行业（医疗/法律/金融）是正确姿势。
+      </div>
+      <div class="mvp-steps" style="margin-top:12px">
+        <div class="mvp-step"><div class="mvp-num">1</div><div class="mvp-text"><strong>选垂直场景</strong>：建议「医药说明书查询」或「A股公告解读」</div></div>
+        <div class="mvp-step"><div class="mvp-num">2</div><div class="mvp-text"><strong>接DeepSeek API + 垂直数据源</strong>，做出能回答专业问题的demo</div></div>
+        <div class="mvp-step"><div class="mvp-num">3</div><div class="mvp-text"><strong>找100个目标用户免费试用</strong>，验证「它比百度搜索快多少」</div></div>
+      </div>
+    </div>
+    <div class="subsection">
+      <div class="subsection-title">第一周行动清单</div>
+      <ul class="action-list">
+        <li><strong>确定一个垂直场景</strong>（建议：医药说明书查询 或 A股公告解读）</li>
+        <li><strong>用Perplexity Pro一周</strong>，截图记录它在你的场景里答错的每一次</li>
+        <li><strong>找到该垂直领域的高质量数据源</strong>（官方数据库/行业文档）</li>
+        <li><strong>用LlamaIndex或LangChain搭最简单的RAG demo</strong>，对接DeepSeek</li>
+        <li><strong>拉20个目标用户进群</strong>，问他们「愿意为这个付多少钱每月」</li>
+      </ul>
+    </div>
+    <div class="subsection">
+      <div class="subsection-title">关键数据</div>
+      <div class="stats-row">
+        <div class="stat-box"><div class="stat-value">$5亿</div><div class="stat-label">2024年融资</div><div class="stat-note">估值90亿美元</div></div>
+        <div class="stat-box"><div class="stat-value">5000万</div><div class="stat-label">月活用户</div><div class="stat-note">CEO推文 · 2024.11</div></div>
+        <div class="stat-box"><div class="stat-value">秘塔AI搜索</div><div class="stat-label">国内对标</div><div class="stat-note">值得深入研究</div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PROJECT 3: WISPR FLOW -->
+<div class="project-card">
+  <div class="card-header">
+    <div class="card-number">03</div>
+    <div class="card-header-info">
+      <div class="card-title">Wispr Flow · 美国</div>
+      <div class="card-subtitle">装在Mac上的AI语音输入工具，你说话它打字，比手打快3倍，$17/月</div>
+      <div class="card-meta">
+        <span class="meta-chip chip-diff">复制难度 ★★</span>
+        <span class="meta-chip chip-fund">启动 ¥10万+</span>
+      </div>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="subsection">
+      <div class="subsection-title">商业模式拆解</div>
+      <div class="info-grid">
+        <div class="info-item"><div class="info-item-label">如何赚钱</div><div class="info-item-value">订阅制，$17/月或$144/年。免费试用10小时后要付费。</div></div>
+        <div class="info-item"><div class="info-item-label">目标用户</div><div class="info-item-value">写报告的咨询顾问、每天回邮件的销售、内容创作者——每天要写大量文字的人。</div></div>
+        <div class="info-item"><div class="info-item-label">获客方式</div><div class="info-item-value">ProductHunt首发爆了，然后靠Twitter KOL自发传播，效率类博主安利。</div></div>
+        <div class="info-item"><div class="info-item-label">核心差异化</div><div class="info-item-value">「说的是口语，输出的是书面语」——自动润色，不是普通语音转文字，这是用户不愿换回去的原因。</div></div>
+      </div>
+    </div>
+    <div class="subsection">
+      <div class="subsection-title">趋势判断</div>
+      <div class="subsection-content">
+        <strong>大趋势：</strong>下一个人机交互入口是语音，不是键盘。这条路已经确定，只是时间问题。<br>
+        <strong>现在阶段：</strong>早期，国内基本没有对标产品。<br>
+        <strong>未来12个月：</strong>苹果会把类似功能做进系统是最大变量，但苹果动手前，机会窗口还在。
+      </div>
+    </div>
+    <div class="subsection">
+      <div class="subsection-title">可复制性评估</div>
+      <div class="window-badge">先发窗口：6个月（技术门槛低，容易被跟风）</div>
+      <div class="subsection-content" style="margin-top:10px">
+        <strong>中国适配度：</strong>非常适合。国内用户更习惯语音，微信语音发了再转文字是高频场景，需求天然存在。建议做微信生态插件而非独立工具。
+      </div>
+      <div class="mvp-steps" style="margin-top:12px">
+        <div class="mvp-step"><div class="mvp-num">1</div><div class="mvp-text"><strong>用阿里云/讯飞语音API + DeepSeek</strong>，做一个Chrome插件版本（比Mac客户端简单）</div></div>
+        <div class="mvp-step"><div class="mvp-num">2</div><div class="mvp-text"><strong>先针对单一场景</strong>：「微信工作消息AI回复助手」</div></div>
+        <div class="mvp-step"><div class="mvp-num">3</div><div class="mvp-text"><strong>在小红书/即刻发使用对比视频</strong>，测试付费意愿</div></div>
+      </div>
+    </div>
+    <div class="subsection">
+      <div class="subsection-title">第一周行动清单</div>
+      <ul class="action-list">
+        <li><strong>下载Wispr Flow用3天</strong>，感受「说话→书面文字」的体验，找到最爽的场景</li>
+        <li><strong>问20个每天写大量文字的朋友</strong>（销售/HR/作家）：「你最烦的输入场景是什么」</li>
+        <li><strong>用讯飞开放平台API + GPT-4o做最简单的语音转润色文字demo</strong>（1天能做出来）</li>
+        <li><strong>在即刻发一条「我做了个语音输入工具」</strong>，看有多少人要体验资格</li>
+        <li><strong>给50个测试用户用</strong>，收集「哪句话说出来但输出的不对」，这是核心优化方向</li>
+      </ul>
+    </div>
+    <div class="subsection">
+      <div class="subsection-title">关键数据</div>
+      <div class="stats-row">
+        <div class="stat-box"><div class="stat-value">$1460万</div><div class="stat-label">种子轮融资</div><div class="stat-note">2024.6 TechCrunch</div></div>
+        <div class="stat-box"><div class="stat-value">50万</div><div class="stat-label">月活用户</div><div class="stat-note">ProductHunt 2024Q4</div></div>
+        <div class="stat-box"><div class="stat-value">暂无</div><div class="stat-label">国内对标</div><div class="stat-note">讯飞输入法无AI润色</div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PROJECT 4: DURABLE -->
+<div class="project-card">
+  <div class="card-header">
+    <div class="card-number">04</div>
+    <div class="card-header-info">
+      <div class="card-title">Durable · 加拿大</div>
+      <div class="card-subtitle">30秒AI建网站，专门针对水管工/美甲店/装修公司这类个体小老板</div>
+      <div class="card-meta">
+        <span class="meta-chip chip-diff">复制难度 ★★★</span>
+        <span class="meta-chip chip-fund">启动 ¥30万+</span>
+      </div>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="subsection">
+      <div class="subsection-title">商业模式拆解</div>
+      <div class="info-grid">
+        <div class="info-item"><div class="info-item-label">如何赚钱</div><div class="info-item-value">$12-20/月订阅，包含域名+托管+AI建站，免费版可以建但不能发布。</div></div>
+        <div class="info-item"><div class="info-item-label">目标用户</div><div class="info-item-value">不懂技术的个体经营者——本地美甲店、健身教练、婚礼摄影师，绝对不会用WordPress。</div></div>
+        <div class="info-item"><div class="info-item-label">获客方式</div><div class="info-item-value">谷歌SEO（搜「how to build a website for my salon」类长尾词）+ YouTube教程。</div></div>
+        <div class="info-item"><div class="info-item-label">持续付费理由</div><div class="info-item-value">网站一旦建好有客户来访，就不敢停，停了等于招牌摘了。</div></div>
+      </div>
+    </div>
+    <div class="subsection">
+      <div class="subsection-title">可复制性评估</div>
+      <div class="window-badge">先发窗口：12-18个月（微信官方也会出类似功能）</div>
+      <div class="subsection-content" style="margin-top:10px">
+        <strong>中国适配度：</strong>方向对，但载体要改。国内个体商户要的是「能接入美团/大众点评的小程序」，不是独立网站。<strong>做「30秒AI建小程序」是正确的本土化方向。</strong>
+      </div>
+      <div class="mvp-steps" style="margin-top:12px">
+        <div class="mvp-step"><div class="mvp-num">1</div><div class="mvp-text"><strong>专攻单一行业</strong>，比如「给美甲店/宠物店建小程序」</div></div>
+        <div class="mvp-step"><div class="mvp-num">2</div><div class="mvp-text"><strong>做微信小程序版本</strong>，而非独立网站（国内个体商户更需要小程序）</div></div>
+        <div class="mvp-step"><div class="mvp-num">3</div><div class="mvp-text"><strong>在抖音本地生活服务商群里推</strong>，找第一批100个付费客户</div></div>
+      </div>
+    </div>
+    <div class="subsection">
+      <div class="subsection-title">第一周行动清单</div>
+      <ul class="action-list">
+        <li><strong>去美团/大众点评找100家本地小店</strong>，筛出没有小程序的——这就是目标客户</li>
+        <li><strong>打20个电话</strong>，问「有没有想过做个小程序？现在为什么没做？」——收集真实阻力</li>
+        <li><strong>用微搭（腾讯低代码）搭最简单的美甲店模板小程序</strong>，10分钟可以改好</li>
+        <li><strong>找5个愿意试用的美甲店老板</strong>，帮他们免费建，换取真实反馈和见证</li>
+        <li><strong>根据反馈定价</strong>：一次性建站费 vs 月订阅，哪个模式老板更愿意接受</li>
+      </ul>
+    </div>
+    <div class="subsection">
+      <div class="subsection-title">关键数据</div>
+      <div class="stats-row">
+        <div class="stat-box"><div class="stat-value">$1400万</div><div class="stat-label">2022年融资</div><div class="stat-note">2024年已盈利</div></div>
+        <div class="stat-box"><div class="stat-value">100万+</div><div class="stat-label">企业用户</div><div class="stat-note">Durable官网 2024</div></div>
+        <div class="stat-box"><div class="stat-value">建站之星</div><div class="stat-label">国内对标</div><div class="stat-note">未做AI化，机会在此</div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PROJECT 5: GRANOLA -->
+<div class="project-card">
+  <div class="card-header">
+    <div class="card-number">05</div>
+    <div class="card-header-info">
+      <div class="card-title">Granola · 英国</div>
+      <div class="card-subtitle">装在电脑上，自动录制并整理你所有会议的AI笔记工具，$18/月</div>
+      <div class="card-meta">
+        <span class="meta-chip chip-diff">复制难度 ★★</span>
+        <span class="meta-chip chip-fund">启动 ¥15万+</span>
+      </div>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="subsection">
+      <div class="subsection-title">商业模式拆解</div>
+      <div class="info-grid">
+        <div class="info-item"><div class="info-item-label">如何赚钱</div><div class="info-item-value">个人版免费25次会议，之后$18/月；团队版$14/人/月。</div></div>
+        <div class="info-item"><div class="info-item-label">目标用户</div><div class="info-item-value">每天开3个以上会议的职场人——产品经理、咨询顾问、销售主管。</div></div>
+        <div class="info-item"><div class="info-item-label">获客方式</div><div class="info-item-value">口碑为主，用了一次的人会主动分享给同事，团队一个人用，带动整个团队订阅。</div></div>
+        <div class="info-item"><div class="info-item-label">持续付费理由</div><div class="info-item-value">会议记录这件事，只要停了就会后悔（漏掉关键决策的成本很高）。</div></div>
+      </div>
+    </div>
+    <div class="subsection">
+      <div class="subsection-title">可复制性评估</div>
+      <div class="window-badge">先发窗口：9个月（竞争激烈，中小企业仍是空白）</div>
+      <div class="subsection-content" style="margin-top:10px">
+        <strong>中国适配度：</strong>需求非常真实。但钉钉/飞书已经内置了类似功能，切入点是<strong>「专门给没用企业协作软件的中小公司」</strong>。
+      </div>
+      <div class="mvp-steps" style="margin-top:12px">
+        <div class="mvp-step"><div class="mvp-num">1</div><div class="mvp-text"><strong>做微信/腾讯会议插件</strong>而非独立工具（国内会议场景集中在这两个平台）</div></div>
+        <div class="mvp-step"><div class="mvp-num">2</div><div class="mvp-text"><strong>接讯飞语音识别 + DeepSeek摘要</strong>，先做「输入音频→输出结构化会议纪要」</div></div>
+        <div class="mvp-step"><div class="mvp-num">3</div><div class="mvp-text"><strong>在Boss直聘社群/脉脉职场圈测试</strong>，找第一批100个付费用户</div></div>
+      </div>
+    </div>
+    <div class="subsection">
+      <div class="subsection-title">第一周行动清单</div>
+      <ul class="action-list">
+        <li><strong>下载Granola + 飞书会议记录插件同时用一周</strong>，找出它们各自不能解决的场景</li>
+        <li><strong>问10个在没有用飞书/钉钉的中小公司工作的朋友</strong>：「你们怎么记会议纪要？有多烦？」</li>
+        <li><strong>录一个自己的30分钟内部会议</strong>，用Whisper + DeepSeek手动跑出摘要，感受效果</li>
+        <li><strong>把摘要发给参会的同事</strong>，问「这个有用吗，你愿意每月付多少钱让它自动生成」</li>
+        <li><strong>如果5个人里有3个人愿意付钱</strong>，开始做MVP；如果没有，重新找场景</li>
+      </ul>
+    </div>
+    <div class="subsection">
+      <div class="subsection-title">关键数据</div>
+      <div class="stats-row">
+        <div class="stat-box"><div class="stat-value">$400万</div><div class="stat-label">种子轮</div><div class="stat-note">TechCrunch 2024.9</div></div>
+        <div class="stat-box"><div class="stat-value">TOP 20</div><div class="stat-label">PH年度榜</div><div class="stat-note">ProductHunt 2024</div></div>
+        <div class="stat-box"><div class="stat-value">飞书妙记</div><div class="stat-label">国内对标</div><div class="stat-note">有功能但无独立付费</div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="discussion-box">
+  <div class="discussion-label">💬 AI工具赛道 · 今日社群讨论题</div>
+  <div class="discussion-q">如果你只能选一个AI效率工具方向在国内从头做，你会选「AI写代码」「AI语音输入」还是「AI会议记录」？为什么？欢迎回复你的判断。</div>
+</div>
+
+<!-- =========== TRACK 2: NEW CONSUMER =========== -->
+<div class="section-header" style="margin-top:70px">
+  <span class="section-icon">🛍️</span>
+  <span class="section-title">赛道二：新消费品牌 &amp; 新零售</span>
+  <span class="section-sub">5 Projects</span>
+</div>
+
+<!-- PROJECT 6: GRAZA -->
+<div class="project-card">
+  <div class="card-header">
+    <div class="card-number">06</div>
+    <div class="card-header-info">
+      <div class="card-title">Graza · 美国</div>
+      <div class="card-subtitle">挤压瓶装西班牙橄榄油，解决倒油撒一桌的问题，卖$25一瓶，DTC直接卖</div>
+      <div class="card-meta">
+        <span class="meta-chip chip-diff">复制难度 ★★</span>
+        <span class="meta-chip chip-fund">启动 ¥20万+</span>
+      </div>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="subsection">
+      <div class="subsection-title">商业模式拆解</div>
+      <div class="info-grid">
+        <div class="info-item"><div class="info-item-label">如何赚钱</div><div class="info-item-value">DTC独立站+亚马逊，单瓶$25（普通橄榄油$8-12），订阅复购占总营收约40%。</div></div>
+        <div class="info-item"><div class="info-item-label">目标用户</div><div class="info-item-value">25-40岁爱做饭的城市中产，Instagram重度用户，买东西看颜值也看功能。</div></div>
+        <div class="info-item"><div class="info-item-label">获客方式</div><div class="info-item-value">Instagram美食KOL合作+TikTok做饭短视频，「挤压瓶」在镜头前视觉效果极好，天然传播。</div></div>
+        <div class="info-item"><div class="info-item-label">持续复购理由</div><div class="info-item-value">用习惯了挤压瓶，回去用普通瓶子倒油会觉得「怎么这么难用」，使用习惯绑定。</div></div>
+      </div>
+    </div>
+    <div class="subsection">
+      <div class="subsection-title">可复制性评估</div>
+      <div class="window-badge">先发窗口：24个月（但海天/李锦记随时可跟进）</div>
+      <div class="subsection-content" style="margin-top:10px">
+        <strong>中国适配度：</strong>非常适合复刻。中国调味料市场年规模超4000亿元，但品牌化程度极低。「体验型包装+高端定位」几乎是空白。
+      </div>
+      <div class="mvp-steps" style="margin-top:12px">
+        <div class="mvp-step"><div class="mvp-num">1</div><div class="mvp-text"><strong>选一个中国高频调味料品类</strong>（酱油/芝麻油/花椒油），找到「用起来最烦的操作痛点」</div></div>
+        <div class="mvp-step"><div class="mvp-num">2</div><div class="mvp-text"><strong>重新设计包装</strong>（挤压瓶/喷雾瓶/定量瓶），找义乌或广州包装厂打样，MOQ从500个起</div></div>
+        <div class="mvp-step"><div class="mvp-num">3</div><div class="mvp-text"><strong>在小红书发「我重新设计了一瓶XX油」</strong>的内容，用真实体验对比测试市场反应</div></div>
+      </div>
+    </div>
+    <div class="subsection">
+      <div class="subsection-title">第一周行动清单</div>
+      <ul class="action-list">
+        <li><strong>去超市拍下调味料货架所有产品的包装</strong>，找出「哪个用起来最麻烦/最容易撒」</li>
+        <li><strong>在小红书搜「酱油怎么用」「花椒油推荐」</strong>，读前100条评论，找真实痛点</li>
+        <li><strong>联系3家广州/义乌包装设计厂</strong>，问挤压瓶/喷雾瓶定制的MOQ和单价</li>
+        <li><strong>找5个爱做饭的朋友</strong>，拍他们使用两种包装的反应视频</li>
+        <li><strong>把视频发小红书</strong>，7天内自然流量超过500收藏就值得继续做</li>
+      </ul>
+    </div>
+    <div class="subsection">
+      <div class="subsection-title">关键数据</div>
+      <div class="stats-row">
+        <div class="stat-box"><div class="stat-value">已盈利</div><div class="stat-label">融资状态</div><div class="stat-note">未公开融资</div></div>
+        <div class="stat-box"><div class="stat-value">$800万</div><div class="stat-label">2023年营收</div><div class="stat-note">Forbes 2024.2</div></div>
+        <div class="stat-box"><div class="stat-value">千禾味业</div><div class="stat-label">国内参考</div><div class="stat-note">高端定位但无体验包装</div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PROJECT 7: FLY BY JING -->
+<div class="project-card">
+  <div class="card-header">
+    <div class="card-number">07</div>
+    <div class="card-header-info">
+      <div class="card-title">Fly by Jing · 美国</div>
+      <div class="card-subtitle">华裔创始人做的四川辣酱，用「正宗川味」打入美国高端食品市场，单瓶$15</div>
+      <div class="card-meta">
+        <span class="meta-chip chip-diff">复制难度 ★★</span>
+        <span class="meta-chip chip-fund">启动 ¥15万+</span>
+      </div>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="subsection">
+      <div class="subsection-title">商业模式拆解</div>
+      <div class="info-grid">
+        <div class="info-item"><div class="info-item-label">如何赚钱</div><div class="info-item-value">独立站+Whole Foods+亚马逊三线并进，辣酱礼盒套装$45-60，节日礼品拉高客单价。</div></div>
+        <div class="info-item"><div class="info-item-label">目标用户</div><div class="info-item-value">美国中产白领+亚裔美食爱好者，愿意为「真正的中国味道」多付钱。</div></div>
+        <div class="info-item"><div class="info-item-label">获客方式</div><div class="info-item-value">创始人Jing Gao本人就是IP，Instagram/TikTok分享川菜文化故事，人设驱动品牌传播。</div></div>
+        <div class="info-item"><div class="info-item-label">持续复购理由</div><div class="info-item-value">辣酱本身高复购，加上使用汉源花椒（美国市场没有替代品），用户找不到同类产品。</div></div>
+      </div>
+    </div>
+    <div class="subsection">
+      <div class="subsection-title">可复制性评估</div>
+      <div class="window-badge">出海窗口：12个月 · 国内复刻：24个月</div>
+      <div class="subsection-content" style="margin-top:10px">
+        <strong>中国适配度：</strong>这个项目本身就是给出海做的。国内复刻方向：把同样的「体验型包装+高端定位」逻辑用在国内调味料上，针对一线城市中产。
+      </div>
+      <div class="mvp-steps" style="margin-top:12px">
+        <div class="mvp-step"><div class="mvp-num">1</div><div class="mvp-text"><strong>选一个中国特色食材</strong>（贵州糟辣椒/云南野生菌酱），找「海外没有好替代品」的品类</div></div>
+        <div class="mvp-step"><div class="mvp-num">2</div><div class="mvp-text"><strong>在Shopify建独立站</strong>，首批500瓶，先卖给海外华人社区验证口味</div></div>
+        <div class="mvp-step"><div class="mvp-num">3</div><div class="mvp-text"><strong>创始人出镜拍制作过程</strong>，打「正宗产地直供」的内容牌</div></div>
+      </div>
+    </div>
+    <div class="subsection">
+      <div class="subsection-title">第一周行动清单</div>
+      <ul class="action-list">
+        <li><strong>去亚马逊搜「Chinese hot sauce」</strong>，读前50条1星差评，找海外用户对中国辣酱不满的地方</li>
+        <li><strong>找3个在美国/澳大利亚/加拿大的华人朋友</strong>，问「最想念但买不到的中国调味料是什么」</li>
+        <li><strong>找到对应食材的产地供应商</strong>，拿到最小起订量和出口资质要求</li>
+        <li><strong>设计包装</strong>（要有英文故事说明产地，不要只有中文），找设计师出3个方案</li>
+        <li><strong>在Shopify建最简单的独立站</strong>，发给海外华人微信群，接第一批预订单</li>
+      </ul>
+    </div>
+    <div class="subsection">
+      <div class="subsection-title">关键数据</div>
+      <div class="stats-row">
+        <div class="stat-box"><div class="stat-value">$300万</div><div class="stat-label">累计融资</div><div class="stat-note">Crunchbase 2023</div></div>
+        <div class="stat-box"><div class="stat-value">$500万+</div><div class="stat-label">2023年营收</div><div class="stat-note">Forbes 2024</div></div>
+        <div class="stat-box"><div class="stat-value">虎邦辣椒</div><div class="stat-label">国内参考</div><div class="stat-note">高端辣酱，值得参考</div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PROJECT 8: MAGIC SPOON -->
+<div class="project-card">
+  <div class="card-header">
+    <div class="card-number">08</div>
+    <div class="card-header-info">
+      <div class="card-title">Magic Spoon · 美国</div>
+      <div class="card-subtitle">高蛋白低糖麦片，把健身房人群的早餐需求做成了品牌，一盒$39，DTC订阅制</div>
+      <div class="card-meta">
+        <span class="meta-chip chip-diff">复制难度 ★★</span>
+        <span class="meta-chip chip-fund">启动 ¥25万+</span>
+      </div>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="subsection">
+      <div class="subsection-title">商业模式拆解</div>
+      <div class="info-grid">
+        <div class="info-item"><div class="info-item-label">如何赚钱</div><div class="info-item-value">单盒$39，订阅可打85折，同时在Target/Whole Foods线下铺货。订阅用户占比约35%。</div></div>
+        <div class="info-item"><div class="info-item-label">目标用户</div><div class="info-item-value">健身人群+低碳水饮食者（生酮/间歇性断食），年龄25-40岁，愿为营养标签付溢价。</div></div>
+        <div class="info-item"><div class="info-item-label">获客方式</div><div class="info-item-value">播客广告是核心渠道（赞助大量健康/健身类播客），播客受众精准且付费意愿强。</div></div>
+        <div class="info-item"><div class="info-item-label">持续复购理由</div><div class="info-item-value">早餐是高频场景，找到满意的产品就不换了，加上「低糖」标签让健康焦虑用户持续依赖。</div></div>
+      </div>
+    </div>
+    <div class="subsection">
+      <div class="subsection-title">可复制性评估</div>
+      <div class="window-badge">先发窗口：18个月（WonderLab/ffit8在做代餐但没认真做麦片）</div>
+      <div class="subsection-content" style="margin-top:10px">
+        <strong>中国适配度：</strong>完全能干。国内健身人口超过1亿，高蛋白早餐是明确需求，但好吃的产品极少。
+      </div>
+      <div class="mvp-steps" style="margin-top:12px">
+        <div class="mvp-step"><div class="mvp-num">1</div><div class="mvp-text"><strong>找国内代工厂打样</strong>「高蛋白低糖麦片」，要求：蛋白质≥15g/份，糖≤5g，口感不能像饲料</div></div>
+        <div class="mvp-step"><div class="mvp-num">2</div><div class="mvp-text"><strong>天猫/京东开旗舰店</strong>，同步小红书做健身人群内容渗透</div></div>
+        <div class="mvp-step"><div class="mvp-num">3</div><div class="mvp-text"><strong>联系健身房/瑜伽馆做线下试吃</strong>，低成本精准触达目标用户</div></div>
+      </div>
+    </div>
+    <div class="subsection">
+      <div class="subsection-title">第一周行动清单</div>
+      <ul class="action-list">
+        <li><strong>去京东/天猫搜「高蛋白麦片」</strong>，把销量前10的产品全买回来，逐一试吃，找「最难吃的痛点」</li>
+        <li><strong>在小红书搜「健身早餐」</strong>，读500条笔记，统计用户提到最多的需求词</li>
+        <li><strong>联系广州/深圳3家食品代工厂</strong>，要求打样，预算1万元以内拿到5-10个口味样品</li>
+        <li><strong>找50个健身房会员做盲测</strong>，筛出最受欢迎的2个口味</li>
+        <li><strong>设计包装</strong>（突出蛋白质含量数字，数字要大），在小红书发内容测试反应</li>
+      </ul>
+    </div>
+    <div class="subsection">
+      <div class="subsection-title">关键数据</div>
+      <div class="stats-row">
+        <div class="stat-box"><div class="stat-value">$8500万</div><div class="stat-label">累计融资</div><div class="stat-note">Crunchbase 2024</div></div>
+        <div class="stat-box"><div class="stat-value">$5000万+</div><div class="stat-label">2023年营收</div><div class="stat-note">Bloomberg 2023</div></div>
+        <div class="stat-box"><div class="stat-value">WonderLab</div><div class="stat-label">国内参考</div><div class="stat-note">代餐赛道，麦片暂无</div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PROJECT 9: BRIGHTLAND -->
+<div class="project-card">
+  <div class="card-header">
+    <div class="card-number">09</div>
+    <div class="card-header-info">
+      <div class="card-title">Brightland · 美国</div>
+      <div class="card-subtitle">高颜值橄榄油+醋礼盒，靠内容和视觉设计卖溢价，一套礼盒$75</div>
+      <div class="card-meta">
+        <span class="meta-chip chip-diff">复制难度 ★★</span>
+        <span class="meta-chip chip-fund">启动 ¥20万+</span>
+      </div>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="subsection">
+      <div class="subsection-title">商业模式拆解</div>
+      <div class="info-grid">
+        <div class="info-item"><div class="info-item-label">如何赚钱</div><div class="info-item-value">DTC独立站为主，礼盒套装$75-120，节日前两个月是营收高峰，礼品属性驱动高客单价。</div></div>
+        <div class="info-item"><div class="info-item-label">目标用户</div><div class="info-item-value">喜欢送有质感礼物的30-45岁女性，「送朋友一瓶好油」的消费场景，不是自己用，是送人用。</div></div>
+        <div class="info-item"><div class="info-item-label">获客方式</div><div class="info-item-value">食物摄影+生活方式内容，Instagram视觉调性极强，每一张图都是广告。</div></div>
+        <div class="info-item"><div class="info-item-label">复购理由</div><div class="info-item-value">用过之后觉得普通超市的油不够好，自用复购。礼品场景则是节日前反复购买。</div></div>
+      </div>
+    </div>
+    <div class="subsection">
+      <div class="subsection-title">可复制性评估</div>
+      <div class="window-badge">入场建议：春节前6个月最佳时机</div>
+      <div class="subsection-content" style="margin-top:10px">
+        <strong>中国适配度：</strong>完全能干。中秋/春节送礼场景天然存在，国内调味料礼盒市场年规模超百亿但高端品牌极少。
+      </div>
+      <div class="mvp-steps" style="margin-top:12px">
+        <div class="mvp-step"><div class="mvp-num">1</div><div class="mvp-text"><strong>不做橄榄油，选中国特色高端调味料礼盒</strong>：花椒油+辣椒油+香醋组合</div></div>
+        <div class="mvp-step"><div class="mvp-num">2</div><div class="mvp-text"><strong>找设计师做高颜值包装</strong>，预算3-5万元，这是最重要的投入</div></div>
+        <div class="mvp-step"><div class="mvp-num">3</div><div class="mvp-text"><strong>先做500套，全部走小红书KOL种草</strong>，测试礼品场景的转化率</div></div>
+      </div>
+    </div>
+    <div class="subsection">
+      <div class="subsection-title">第一周行动清单</div>
+      <ul class="action-list">
+        <li><strong>去天猫搜「调味料礼盒」</strong>，找出「颜值最差但卖得好的」——这是你的机会点</li>
+        <li><strong>在小红书搜「送礼厨房好物」</strong>，看用户晒单的产品集中在哪些品类，记录频次</li>
+        <li><strong>确定选品组合</strong>（建议3-4个单品），联系产地供应商或代工厂拿样品</li>
+        <li><strong>找2-3个擅长生活方式摄影的摄影师</strong>，国内小摄影师2000-5000元可出好效果</li>
+        <li><strong>把产品图发给10个30-40岁女性朋友</strong>，问「如果定价XX元，你会买来送人吗」</li>
+      </ul>
+    </div>
+    <div class="subsection">
+      <div class="subsection-title">关键数据</div>
+      <div class="stats-row">
+        <div class="stat-box"><div class="stat-value">$100万</div><div class="stat-label">累计融资</div><div class="stat-note">Crunchbase 2023</div></div>
+        <div class="stat-box"><div class="stat-value">$1000万</div><div class="stat-label">2023年营收</div><div class="stat-note">Inc. Magazine 2024</div></div>
+        <div class="stat-box"><div class="stat-value">暂无</div><div class="stat-label">国内对标</div><div class="stat-note">调味料礼盒高端空白</div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PROJECT 10: SUPERGUT -->
+<div class="project-card">
+  <div class="card-header">
+    <div class="card-number">10</div>
+    <div class="card-header-info">
+      <div class="card-title">Supergut · 美国</div>
+      <div class="card-subtitle">益生元代餐奶昔，打「修复肠道」牌，订阅制$50/月，靠科学背书建立信任</div>
+      <div class="card-meta">
+        <span class="meta-chip chip-diff">复制难度 ★★★</span>
+        <span class="meta-chip chip-fund">启动 ¥30万+</span>
+      </div>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="subsection">
+      <div class="subsection-title">商业模式拆解</div>
+      <div class="info-grid">
+        <div class="info-item"><div class="info-item-label">如何赚钱</div><div class="info-item-value">订阅$50/月（28包），一次性购买$65，订阅折扣驱动用户锁定，复购率高。</div></div>
+        <div class="info-item"><div class="info-item-label">目标用户</div><div class="info-item-value">有肠胃问题且愿意用营养产品自我管理的35-55岁人群，以女性为主。</div></div>
+        <div class="info-item"><div class="info-item-label">获客方式</div><div class="info-item-value">博士创始人出镜做科普内容，用「临床数据」建立专业背书，然后配合KOL推广。</div></div>
+        <div class="info-item"><div class="info-item-label">持续复购理由</div><div class="info-item-value">「肠道健康」是慢性需求，用户一旦觉得有效，停下来会有心理负担。</div></div>
+      </div>
+    </div>
+    <div class="subsection">
+      <div class="subsection-title">可复制性评估</div>
+      <div class="window-badge">先发窗口：18-24个月（核心壁垒在专业背书，不在资金）</div>
+      <div class="subsection-content" style="margin-top:10px">
+        <strong>中国适配度：</strong>能干，但要本地化：找到中国用户的「肠道焦虑入口」——国内用户触发点更多是「减肥」「皮肤好」，而不是「血糖管理」，内容方向要调整。
+      </div>
+      <div class="mvp-steps" style="margin-top:12px">
+        <div class="mvp-step"><div class="mvp-num">1</div><div class="mvp-text"><strong>找有益生元/膳食纤维配方经验的OEM工厂</strong>，打样3-5个口味（菊粉/低聚果糖为主，成本不高）</div></div>
+        <div class="mvp-step"><div class="mvp-num">2</div><div class="mvp-text"><strong>找有医学/营养学背景的创始人或顾问出镜</strong>，科学背书是这个品类的核心壁垒</div></div>
+        <div class="mvp-step"><div class="mvp-num">3</div><div class="mvp-text"><strong>小红书+抖音做「肠道健康科普」内容</strong>，先建立信任再卖产品</div></div>
+      </div>
+    </div>
+    <div class="subsection">
+      <div class="subsection-title">第一周行动清单</div>
+      <ul class="action-list">
+        <li><strong>在小红书搜「益生元」「肠道健康」</strong>，读最近30天的笔记，找用户描述症状最密集的词</li>
+        <li><strong>去淘宝搜「益生元代餐」</strong>，把销量前10的产品评论全看完，找「用了没效果/口感差」的差评</li>
+        <li><strong>联系广州/深圳3家保健食品OEM工厂</strong>，询问益生元粉剂的起订量和注册周期（注意：保健食品注册需6-12个月）</li>
+        <li><strong>找一个有营养师或医学背景的朋友谈合作</strong>，哪怕只是内容顾问，用真实资质出镜</li>
+        <li><strong>先做「内容账号」而不是「卖货账号」</strong>，发10条「肠道健康科普」短视频，看哪条播放量过万</li>
+      </ul>
+    </div>
+    <div class="subsection">
+      <div class="subsection-title">关键数据</div>
+      <div class="stats-row">
+        <div class="stat-box"><div class="stat-value">$700万</div><div class="stat-label">种子轮</div><div class="stat-note">Crunchbase 2022</div></div>
+        <div class="stat-box"><div class="stat-value">70%+</div><div class="stat-label">据称复购率</div><div class="stat-note">创始人采访 Forbes 2023</div></div>
+        <div class="stat-box"><div class="stat-value">minayo</div><div class="stat-label">国内参考</div><div class="stat-note">高端益生菌，非代餐</div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="discussion-box">
+  <div class="discussion-label">💬 新消费赛道 · 今日社群讨论题</div>
+  <div class="discussion-q">调味料/代餐/功能食品，你觉得哪个品类在国内「用户教育成本最低、最容易第一单成交」？说说你的判断。</div>
+</div>
+
+<!-- =========== TRACK 3: FRANCHISE =========== -->
+<div class="section-header" style="margin-top:70px">
+  <span class="section-icon">🔗</span>
+  <span class="section-title">赛道三：连锁加盟 &amp; 本地生活服务</span>
+  <span class="section-sub">5 Projects</span>
+</div>
+
+<!-- PROJECT 11: STRETCH ZONE -->
+<div class="project-card">
+  <div class="card-header">
+    <div class="card-number">11</div>
+    <div class="card-header-info">
+      <div class="card-title">Stretch Zone · 美国</div>
+      <div class="card-subtitle">专业拉伸门店，一对一辅助拉伸，不卖课程不卖器械，单次$50，月卡$160</div>
+      <div class="card-meta">
+        <span class="meta-chip chip-diff">复制难度 ★★</span>
+        <span class="meta-chip chip-fund">启动 ¥40万+</span>
+      </div>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="subsection">
+      <div class="subsection-title">商业模式拆解</div>
+      <div class="info-grid">
+        <div class="info-item"><div class="info-item-label">如何赚钱</div><div class="info-item-value">单次$50，月卡$160（无限次），加盟费$37,500+，加盟商持续交品牌使用费。</div></div>
+        <div class="info-item"><div class="info-item-label">目标用户</div><div class="info-item-value">40岁以上有慢性肌肉酸痛的上班族、退休人群、运动后恢复需求的健身爱好者。</div></div>
+        <div class="info-item"><div class="info-item-label">获客方式</div><div class="info-item-value">门店选址在健身房/瑜伽馆旁边，靠「溢出流量」自然获客，加上Google本地搜索。</div></div>
+        <div class="info-item"><div class="info-item-label">持续复购理由</div><div class="info-item-value">拉伸效果是累积性的，做一次没用，做10次才明显，用户感受到效果就会变成会员。</div></div>
+      </div>
+    </div>
+    <div class="subsection">
+      <div class="subsection-title">可复制性评估</div>
+      <div class="window-badge">先发窗口：24个月（国内拉伸专项门店几乎为零）</div>
+      <div class="subsection-content" style="margin-top:10px">
+        <strong>中国适配度：</strong>完全能干。定价本地化：一线城市单次198-298元，二线城市128-198元，月卡599-899元。
+      </div>
+      <div class="mvp-steps" style="margin-top:12px">
+        <div class="mvp-step"><div class="mvp-num">1</div><div class="mvp-text"><strong>不要一开始就开门店</strong>，先在健身房/瑜伽馆租一个隔间做「试验田」，验证客单价和复购</div></div>
+        <div class="mvp-step"><div class="mvp-num">2</div><div class="mvp-text"><strong>培训1-2个拉伸师</strong>（考取健身教练证+专项拉伸培训，约1-2个月），开始接客</div></div>
+        <div class="mvp-step"><div class="mvp-num">3</div><div class="mvp-text"><strong>验证月流水稳定超过3万元后</strong>，再考虑独立门店</div></div>
+      </div>
+    </div>
+    <div class="subsection">
+      <div class="subsection-title">第一周行动清单</div>
+      <ul class="action-list">
+        <li><strong>去大众点评搜你所在城市的「拉伸」「筋膜放松」</strong>，看有多少专项门店、定价多少</li>
+        <li><strong>去3家健身房问「有没有一对一拉伸服务」</strong>，观察教练怎么介绍、用户如何反应</li>
+        <li><strong>联系本地健身房谈「租场地合作」</strong>，你出人，他们提供场地，按流水分成，验证模式</li>
+        <li><strong>在抖音本地生活发「一对一拉伸体验」团购</strong>，定价99元体验价，看一周内成单数量</li>
+        <li><strong>如果一周有20单以上</strong>，开始谈正式合作或找场地；如果没有，复盘定价和内容</li>
+      </ul>
+    </div>
+    <div class="subsection">
+      <div class="subsection-title">关键数据</div>
+      <div class="stats-row">
+        <div class="stat-box"><div class="stat-value">600+</div><div class="stat-label">全美门店</div><div class="stat-note">2024年新增150+</div></div>
+        <div class="stat-box"><div class="stat-value">加盟驱动</div><div class="stat-label">扩张模式</div><div class="stat-note">未公开融资</div></div>
+        <div class="stat-box"><div class="stat-value">暂无</div><div class="stat-label">国内对标</div><div class="stat-note">太力运动康复有类似但未连锁</div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PROJECT 12: BLO -->
+<div class="project-card">
+  <div class="card-header">
+    <div class="card-number">12</div>
+    <div class="card-header-info">
+      <div class="card-title">Blo Blow Dry Bar · 加拿大</div>
+      <div class="card-subtitle">只做吹发造型不做剪染的专项美发店，30分钟完成，$45一次，会员$99/月</div>
+      <div class="card-meta">
+        <span class="meta-chip chip-diff">复制难度 ★★</span>
+        <span class="meta-chip chip-fund">启动 ¥50万+</span>
+      </div>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="subsection">
+      <div class="subsection-title">商业模式拆解</div>
+      <div class="info-grid">
+        <div class="info-item"><div class="info-item-label">如何赚钱</div><div class="info-item-value">单次$45，会员$99/月，叠加发型产品销售。加盟费$35,000起，全球400+门店。</div></div>
+        <div class="info-item"><div class="info-item-label">目标用户</div><div class="info-item-value">经常需要出席活动/会议的职场女性，35-50岁，觉得自己吹头发费时费力、效果差。</div></div>
+        <div class="info-item"><div class="info-item-label">获客方式</div><div class="info-item-value">Instagram前后对比照天然传播，婚庆/企业活动团购是大客单来源。</div></div>
+        <div class="info-item"><div class="info-item-label">持续复购理由</div><div class="info-item-value">「吹头发」是刚需但被忽视的服务，一旦养成习惯，每周去一次，月卡值回票价。</div></div>
+      </div>
+    </div>
+    <div class="subsection">
+      <div class="subsection-title">可复制性评估</div>
+      <div class="window-badge">先发窗口：12-18个月（先建品牌认知的人有定价权）</div>
+      <div class="subsection-content" style="margin-top:10px">
+        <strong>中国适配度：</strong>可以干，但选址非常关键。一定要在「女性高密度消费场景」附近：购物中心/商务楼/高端住宅。避开社区店。
+      </div>
+      <div class="mvp-steps" style="margin-top:12px">
+        <div class="mvp-step"><div class="mvp-num">1</div><div class="mvp-text"><strong>在一线城市CBD或高端住宅区找15-20平小铺</strong>，装修要求：干净、有格调、快进快出</div></div>
+        <div class="mvp-step"><div class="mvp-num">2</div><div class="mvp-text"><strong>招2名会吹造型的发型师</strong>，统一培训「30分钟标准化吹发流程」</div></div>
+        <div class="mvp-step"><div class="mvp-num">3</div><div class="mvp-text"><strong>开业前在抖音本地生活发「9.9元体验吹发」引流</strong>，前200名留联系方式，转月卡</div></div>
+      </div>
+    </div>
+    <div class="subsection">
+      <div class="subsection-title">第一周行动清单</div>
+      <ul class="action-list">
+        <li><strong>在大众点评搜所在城市「吹发」</strong>，看有多少单独标注「吹发造型」的门店——数量即市场成熟度</li>
+        <li><strong>去3个美发沙龙，问「只做吹发造型要多少钱、多久」</strong>，这是你的竞品基准线</li>
+        <li><strong>找2-3个30-45岁职场女性朋友做访谈</strong>：「你上次专门去吹头发是什么时候？为什么不常去？」</li>
+        <li><strong>在小红书发「如果有一家专门吹发的门店……」的话题帖</strong>，收集真实意向</li>
+        <li><strong>联系2个购物中心的招商经理</strong>，了解15-20平小铺的租金行情和入驻条件</li>
+      </ul>
+    </div>
+    <div class="subsection">
+      <div class="subsection-title">关键数据</div>
+      <div class="stats-row">
+        <div class="stat-box"><div class="stat-value">400+</div><div class="stat-label">全球门店</div><div class="stat-note">Blo官网 2024</div></div>
+        <div class="stat-box"><div class="stat-value">$35,000</div><div class="stat-label">加盟费起</div><div class="stat-note">含培训支持</div></div>
+        <div class="stat-box"><div class="stat-value">专项美甲</div><div class="stat-label">国内验证模型</div><div class="stat-note">细分专项已被市场验证</div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="discussion-box">
+  <div class="discussion-label">💬 连锁加盟赛道 · 延伸思考</div>
+  <div class="discussion-q">专项服务（拉伸/吹发/美甲/眉毛）的共同逻辑是：把一件事做到极致，用会员制锁定高频复购。你在本地还发现了哪些「被大型沙龙顺带做、但没有人专门做」的服务？</div>
+</div>
+
+</main>
+
+<footer>
+  <div class="footer-brand">全球创业<span>复刻</span>日报</div>
+  <div class="footer-copy">Issue #001 &nbsp;·&nbsp; 2026.03.26 &nbsp;·&nbsp; 39 Projects &nbsp;·&nbsp; 8 Tracks</div>
+</footer>
+
+<script>
+// Smooth scroll for nav items
+document.querySelectorAll('.nav-item').forEach(item => {
+  item.addEventListener('click', () => {
+    document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+    item.classList.add('active');
+  });
+});
+// Table row hover enhancement
+document.querySelectorAll('.overview-table tbody tr').forEach(row => {
+  row.style.transition = 'background 0.15s';
+});
+</script>
+
+</body></html>
